@@ -16,7 +16,7 @@
         android:textAlignment="center"
         android:textColor="#FBFBFD"
         android:textSize="60sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
