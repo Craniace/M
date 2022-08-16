@@ -14,7 +14,7 @@
         android:layout_marginTop="36dp"
         android:text="SignUp"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
@@ -124,25 +124,24 @@
         android:id="@+id/button7"
         android:layout_width="166dp"
         android:layout_height="68dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="40dp"
         android:backgroundTint="#F1548A"
         android:text="SignUp"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button8"
-        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="165dp"
+        android:layout_width="166dp"
         android:layout_height="68dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="44dp"
-        android:backgroundTint="#F3598D"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#F1548A"
         android:text="LOGIN"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/button7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
