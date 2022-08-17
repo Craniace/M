@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class Options extends AppCompatActivity {
     private Button button11;
+    private Button button6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,14 @@ public class Options extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Options.this,Setting.class);
                 startActivity(intent);
+            }
+        });
+        button6=findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p=new Intent(Options.this,profile.class);
+                startActivity(p);
             }
         });
     }
