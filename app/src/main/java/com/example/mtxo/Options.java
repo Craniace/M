@@ -10,6 +10,9 @@ import android.widget.Button;
 public class Options extends AppCompatActivity {
     private Button button11;
     private Button button6;
+    private Button button9;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,14 @@ public class Options extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent p=new Intent(Options.this,profile.class);
+                startActivity(p);
+            }
+        });
+        button9=findViewById(R.id.button9);
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p=new Intent(Options.this,Browse.class);
                 startActivity(p);
             }
         });
