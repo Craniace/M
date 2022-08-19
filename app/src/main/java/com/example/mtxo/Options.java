@@ -11,6 +11,7 @@ public class Options extends AppCompatActivity {
     private Button button11;
     private Button button6;
     private Button button9;
+    private Button button10;
 
 
 
@@ -40,6 +41,14 @@ public class Options extends AppCompatActivity {
             public void onClick(View view) {
                 Intent p=new Intent(Options.this,Browse.class);
                 startActivity(p);
+            }
+        });
+        button10=findViewById(R.id.button10);
+        button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Options.this,Suggested.class);
+                startActivity(intent);
             }
         });
     }

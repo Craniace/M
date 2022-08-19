@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:backgroundTint="#F6F5F5"
     tools:context=".profile">
 
     <TextView
@@ -164,8 +165,8 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="126dp"
-        android:layout_height="53dp"
+        android:layout_width="161dp"
+        android:layout_height="57dp"
         android:layout_marginBottom="24dp"
         android:backgroundTint="#E45589"
         android:text="Save"
